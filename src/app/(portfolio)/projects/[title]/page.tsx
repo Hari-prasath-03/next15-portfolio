@@ -4,15 +4,15 @@ export const dynamic = "force-dynamic";
 import Heading from "@/components/ui/Heading";
 import Reveal from "@/motion/Reveal";
 import { ExternalLink, Github } from "lucide-react";
-import axiosInstance from "@/utils/axiosInstance";
 import { ProjectType } from "../page";
 
 const Project = async ({ params }: { params: Promise<{ title: string }> }) => {
   const { title } = await params;
 
-  const project: ProjectType | undefined = await axiosInstance
-    .get(`/projects/${title}`)
-    .then((res) => res.data)
+  const project: ProjectType | undefined = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/projects/${title}`
+  )
+    .then((res) => res.json())
     .catch(() => undefined);
 
   if (!project) {

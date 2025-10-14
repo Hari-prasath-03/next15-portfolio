@@ -1,9 +1,11 @@
-import axiosInstance from "@/utils/axiosInstance";
 import { useQuery } from "@tanstack/react-query";
 
 export default function useGetAbout() {
   return useQuery({
     queryKey: ["about"],
-    queryFn: () => axiosInstance.get("/about").then((res) => res.data),
+    queryFn: () =>
+      fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/about`).then((res) =>
+        res.json()
+      ),
   });
 }

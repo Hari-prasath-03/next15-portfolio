@@ -1,9 +1,11 @@
-import axiosInstance from "@/utils/axiosInstance";
 import { useQuery } from "@tanstack/react-query";
 
 export function useGetSocials() {
   return useQuery({
     queryKey: ["socials"],
-    queryFn: () => axiosInstance.get("/socials").then((res) => res.data),
+    queryFn: () =>
+      fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/socials`).then((res) =>
+        res.json()
+      ),
   });
 }

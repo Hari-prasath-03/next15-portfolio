@@ -1,13 +1,11 @@
-import axiosInstance from "@/utils/axiosInstance";
 import { useQuery } from "@tanstack/react-query";
 
 export default function useGetProjectByTitle<T>(title: string) {
   return useQuery<T>({
     queryKey: ["project", title],
     queryFn: () =>
-      axiosInstance
-        .get(`/projects/${title}`)
-        .then((res) => res.data)
+      fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/projects/${title}`)
+        .then((res) => res.json())
         .catch(() => undefined),
     enabled: !!title,
   });

@@ -24,7 +24,6 @@ const Experience = () => {
   
   useEffect(() => {
     if (!data) return;
-    console.log(data);
     setExperiences(data);
   }, [data]);
 

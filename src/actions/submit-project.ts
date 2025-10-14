@@ -1,7 +1,6 @@
 "use server";
 
 import uploadImgToCloudinary from "@/lib/upload-image";
-import axiosInstance from "@/utils/axiosInstance";
 
 export default async function submitProject(
   prevState: unknown,
@@ -36,8 +35,15 @@ export default async function submitProject(
     liveLink,
   };
 
-  const response = await axiosInstance.post("/projects", newProject);
+  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/projects`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(newProject),
+  });
 
-  if (response.status === 201) return { success: true, message: "Project added successfully." };
+  if (response.status === 201)
+    return { success: true, message: "Project added successfully." };
   return { success: false, message: "Failed to add project." };
 }
