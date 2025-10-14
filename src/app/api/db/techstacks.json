@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Java",
+    "category": "Languages",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "category": "Languages",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "category": "Languages",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "category": "Languages",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  },
+  {
+    "id": 5,
+    "name": "C",
+    "category": "Languages",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+  },
+  {
+    "id": 6,
+    "name": "React.js",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind CSS",
+    "category": "Front-end",
+    "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+  },
+  {
+    "id": 8,
+    "name": "Framer motion",
+    "category": "Front-end",
+    "icon": "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
+  },
+  {
+    "id": 9,
+    "name": "Shadcn UI",
+    "category": "Front-end",
+    "icon": "https://avatars.githubusercontent.com/u/139895814?s=200&v=4"
+  },
+  {
+    "id": 10,
+    "name": "Material UI",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+  },
+  {
+    "id": 11,
+    "name": "TypeScript",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  },
+  {
+    "id": 12,
+    "name": "Bootstrap",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+  },
+  {
+    "id": 13,
+    "name": "Zustand",
+    "category": "Front-end",
+    "icon": "https://img.icons8.com/?size=512w&id=sJXle6UehcOM&format=png"
+  },
+  {
+    "id": 14,
+    "name": "React Query",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "id": 15,
+    "name": "Next.js",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+  },
+  {
+    "id": 16,
+    "name": "HTML",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+  },
+  {
+    "id": 17,
+    "name": "Vanilla CSS",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+  },
+  {
+    "id": 18,
+    "name": "JavaScript",
+    "category": "Front-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    "id": 19,
+    "name": "Spring",
+    "category": "Back-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+  },
+  {
+    "id": 20,
+    "name": "Spring Boot",
+    "category": "Back-end",
+    "icon": "https://spring.io/img/projects/spring-boot.svg"
+  },
+  {
+    "id": 21,
+    "name": "Spring Security",
+    "category": "Back-end",
+    "icon": "https://spring.io/img/projects/spring-security.svg"
+  },
+  {
+    "id": 22,
+    "name": "Node.js",
+    "category": "Back-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "id": 23,
+    "name": "Express.js",
+    "category": "Back-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+  },
+  {
+    "id": 24,
+    "name": "Mongodb",
+    "category": "Back-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    "id": 25,
+    "name": "MySQL",
+    "category": "Back-end",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+  },
+  {
+    "id": 26,
+    "name": "VS code",
+    "category": "Tools",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+  },
+  {
+    "id": 27,
+    "name": "InteleJ",
+    "category": "Tools",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+  },
+  {
+    "id": 28,
+    "name": "Postman",
+    "category": "Tools",
+    "icon": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+  },
+  {
+    "id": 29,
+    "name": "Git",
+    "category": "Tools",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+  },
+  {
+    "id": 30,
+    "name": "Github",
+    "category": "Tools",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+  },
+  {
+    "id": 31,
+    "name": "Docker",
+    "category": "Tools",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+  },
+  {
+    "id": 32,
+    "name": "Object oriented programing",
+    "category": "Concepts",
+    "icon": "https://img.icons8.com/?size=512w&id=Jwpp2CRvRcC0&format=png"
+  },
+  {
+    "id": 33,
+    "name": "Data structures & Algorithms",
+    "category": "Concepts",
+    "icon": "https://img.icons8.com/?size=512w&id=JHNvegaTfHjR&format=png"
+  },
+  {
+    "id": 34,
+    "name": "API Design",
+    "category": "Concepts",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg"
+  },
+  {
+    "id": 35,
+    "name": "Microservices",
+    "category": "Concepts",
+    "icon": "https://img.icons8.com/?size=100&id=UrRIiM0l2KU8&format=png&color=000000"
+  },
+  {
+    "id": 36,
+    "name": "Networking",
+    "category": "Concepts",
+    "icon": "https://cdn-icons-png.flaticon.com/512/906/906361.png"
+  },
+  {
+    "id": 37,
+    "name": "System Design",
+    "category": "Concepts",
+    "icon": "https://img.icons8.com/?size=512w&id=RdDKot1cudKt&format=png"
+  },
+  {
+    "id": 38,
+    "name": "Elasticsearch",
+    "category": "Concepts",
+    "icon": "https://img.icons8.com/?size=100&id=8WYF248rC5Yy&format=png&color=000000"
+  }
+]

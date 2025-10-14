@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "date": "May 2024 - May 2024",
+    "title": "Web Development Intern",
+    "organizing": "SkillCraft Technology",
+    "type": "internship",
+    "contents": [
+      "Built static and interactive frontend applications.",
+      "Gained hands-on experience with core web technologies."
+    ],
+    "techStacks": [
+      "CSS",
+      "JavaScript",
+      "HTML5",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "May 2024 - Jun 2024",
+    "title": "Web Development Intern",
+    "organizing": "Prodigy InfoTech",
+    "type": "internship",
+    "contents": [
+      "Developed responsive web pages and single-page applications.",
+      "Optimized web performance and cross-browser compatibility."
+    ],
+    "techStacks": [
+      "CSS",
+      "JavaScript",
+      "HTML5",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "Jun 2024 - Jul 2024",
+    "title": "React Developer",
+    "organizing": "CodSoft",
+    "type": "internship",
+    "contents": [
+      "Worked on dynamic front-end features using React.js.",
+      "Implemented user authentication and real-time data handling with Firebase."
+    ],
+    "techStacks": [
+      "Firebase",
+      "Tailwind CSS",
+      "React.js"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "Dec 2025 (15 days)",
+    "title": "Frontend Developer",
+    "organizing": "RPM Travel world",
+    "type": "freelance",
+    "contents": [
+      "Designed and developed a clean landing pages."
+    ],
+    "techStacks": [
+      "HTML",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "Jan 2025 - Mar 2025",
+    "title": "Frontend Developer",
+    "organizing": "Jagasree Collections",
+    "type": "freelance",
+    "contents": [
+      "Designed and developed a clean user-interface.",
+      "Built a functional dashboard for product and content management.",
+      "Integrated APIs to smoothen user flows."
+    ],
+    "techStacks": [
+      "React",
+      "Tailwind CSS",
+      "REST API"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "Mar 2025 - Apr 2025",
+    "title": "Arduino Resource person",
+    "organizing": "Paavai Engineering College",
+    "type": "volunteer",
+    "contents": [
+      "Facilitated workshops on Arduino for juniors.",
+      "Trained over 500 students in Arduino software."
+    ],
+    "techStacks": [
+      "Arduino",
+      "Embedded C",
+      "Peer teaching"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "Sep 2025 - Present",
+    "title": "Student Ambassador",
+    "organizing": "LetsUpgrade",
+    "type": "internship",
+    "contents": [
+      "Represented LetsUpgrade in college and promoted upskilling programs.",
+      "Actively engaged in community events."
+    ]
+  },
+  {
+    "id": 8,
+    "date": "Sep 2025 - Present",
+    "title": "Core Team Member",
+    "organizing": "Google Developers Group",
+    "type": "volunteer",
+    "contents": [
+      "Contributed to organizing developer community events and technical sessions.",
+      "Collaborated with team members to grow developer engagement locally."
+    ]
+  }
+]

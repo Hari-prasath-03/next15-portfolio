@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "image": {
+      "public_id": "portfolio/projects/jgf6ypiy2zu3phwyxz1h",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760078938/portfolio/projects/jgf6ypiy2zu3phwyxz1h.png"
+    },
+    "name": "4x4 Tic-Tac-Toe",
+    "shortDescription": "A strategic React-based game with an extended 4x4 grid.",
+    "techStacks": [
+      "React",
+      "JavaScript",
+      "Vanilla CSS",
+      "Vite",
+      "Alpha-Beta pruning"
+    ],
+    "description": [
+      "A Tic-Tac-Toe featuring a 4x4 grid for enhanced gameplay.",
+      "Support both 2 players and also play with AI opponent.",
+      "Built with React.js using component-based architecture.",
+      "Styled with CSS to ensure a clean and responsive design.",
+      "Vite used for fast development with hot module replacement.",
+      "Features a clean codebase and structure for easy scalability."
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/4x4-tick-tack-toe"
+    ],
+    "liveLink": "https://4x4-tick-tac-toe.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": {
+      "public_id": "portfolio/projects/qcxknpvbp7i9plfj2zen",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760079214/portfolio/projects/qcxknpvbp7i9plfj2zen.png"
+    },
+    "name": "TailwindCSS landing page",
+    "shortDescription": "Modern landing page with smooth light and dark mode switching.",
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Framer-motion"
+    ],
+    "description": [
+      "Responsive landing page with light/dark mode toggle.",
+      "Built using React for modular components and utility-first styling.",
+      "Persistent theme state with localStorage to better user preference.",
+      "Minimalistic Hero section with clean and smart layout.",
+      "Reusable Button and components with interactive hover effects.",
+      "Tailored theming logic using custom hook for mode transitions."
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/Tailwindcss-LandingPage"
+    ],
+    "liveLink": "https://hari-prasath-03.github.io/Tailwindcss-LandingPage"
+  },
+  {
+    "id": 3,
+    "image": {
+      "public_id": "portfolio/projects/scyfrf1cauzxeboj2akx",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760079486/portfolio/projects/scyfrf1cauzxeboj2akx.png"
+    },
+    "name": "Jagasree Collections",
+    "shortDescription": "Responsive fashion catalog with dashboard control.",
+    "techStacks": [
+      "React",
+      "Tailwind CSS",
+      "Framer-motion",
+      "Node.js",
+      "Express",
+      "Firebase-Firestore"
+    ],
+    "description": [
+      "Online catalog built for kerala traditional saries showcasing.",
+      "Fully responsive design tailored for mobile, tablet, and desktop.",
+      "Dedicated admin dashboard to manage product listings, offers, etc,.",
+      "Supports categorized browsing by gender and age group.",
+      "Visual product exploration with interactive carousels.",
+      "Context-based global state management for centerelization.",
+      "Tailwind CSS powered UI with Framer-motion animations."
+    ],
+    "liveLink": "https://jagasreecollections.in/"
+  },
+  {
+    "id": 4,
+    "image": {
+      "public_id": "portfolio/projects/nm9dkqpxwm0wuhhlbf5a",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760079817/portfolio/projects/nm9dkqpxwm0wuhhlbf5a.png"
+    },
+    "name": "QuoteLock",
+    "shortDescription": "Secure quote with rate limits and email auth.",
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "Bootstrap",
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "MySQL"
+    ],
+    "description": [
+      "Built with secure, scalable Spring Boot backend architecture.",
+      "Custom token bucket algorithm for user rate limiting.",
+      "Implements stateless JWT auth using Spring Security filters.",
+      "Interceptor-based request guard without touching endpoint logic.",
+      "Responsive HTML emails powered by Thymeleaf templating engine.",
+      "Supports email OTP verification for signup and reset-password.",
+      "Developed using React and TypeScript for safer UI logic.",
+      "Bootstrap-styled frontend with clean, responsive modern design."
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/QuoteLock-frontend",
+      "https://github.com/Hari-prasath-03/QuoteLock-server"
+    ],
+    "liveLink": "https://quotelock.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": {
+      "public_id": "portfolio/projects/bdofgzmy6098ozp8prl0",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760086638/portfolio/projects/bdofgzmy6098ozp8prl0.png"
+    },
+    "name": "DragDrop Notes",
+    "shortDescription": "Visual note-taking with intuitive drag-and-drop and color coding.",
+    "techStacks": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Drag and Drop",
+      "Node js",
+      "Express",
+      "Vite",
+      "MongoDB"
+    ],
+    "description": [
+      "A full-stack note organizer designed for fast idea capture",
+      "Drag and drop notes to rearrange them freely with live visualy",
+      "CRUD with notes also support for custom color labels",
+      "Notes are tied to user sessions and stored securely in MongoDB",
+      "Context-based state management for simplicity",
+      "Built with modular React components and RESTful API integration",
+      "Modern UI with Tailwind and smooth drag-and-drop interaction"
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/notes-app",
+      "https://github.com/Hari-prasath-03/notes-app-server"
+    ],
+    "liveLink": "https://dad-notes-app.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": {
+      "public_id": "portfolio/projects/n8d0csrqcdeniyphcln9",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760086767/portfolio/projects/n8d0csrqcdeniyphcln9.png"
+    },
+    "name": "Kanban Task Planner",
+    "shortDescription": "Minimal and intuitive Kanban board for organizing tasks and boosting productivity.",
+    "techStacks": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Vite",
+      "Drag and Drop"
+    ],
+    "description": [
+      "Minimal and intuitive Kanban board for organizing tasks",
+      "A clean, drag-and-drop based task planner built using React",
+      "Supports multiple columns like Backlog, TODO, In Progress etc",
+      "Ideal for tracking personal projects, learning goals, and team workflows",
+      "Real-time visual updates and card interactions for clear tracking",
+      "Lightweight design with responsive layout and intuitive card actions",
+      "Built with modern utility-first styling using Tailwind CSS",
+      "All data is stored in local storage for simplicity"
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/Notion-Konbat"
+    ],
+    "liveLink": "https://notion-konban.vercel.app"
+  },
+  {
+    "id": 7,
+    "image": {
+      "public_id": "portfolio/projects/vspa3b0prmgts7e3ijj1",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760086878/portfolio/projects/vspa3b0prmgts7e3ijj1.png"
+    },
+    "name": "YT Audio PWA",
+    "shortDescription": "Progressive web music player using YouTube iframe.",
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "YouTube IFrame API"
+    ],
+    "description": [
+      "Lightweight audio player built over YouTube iframe API",
+      "Add any YouTube music links to custom playlists instantly",
+      "Enjoy autoplay, looping, and next-track transitions seamlessly",
+      "Media Session API integration for full mobile background controls",
+      "Built as a PWA with looks similar to native apps",
+      "Responsive UI designed for both desktop and mobile experiences",
+      "Loop toggle for individual tracks with visual feedback support",
+      "Auto-saves playlist to localStorage for persistent music sessions"
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/yt-player"
+    ],
+    "liveLink": "https://yt-audio-playeer.vercel.app"
+  },
+  {
+    "id": 8,
+    "image": {
+      "public_id": "portfolio/projects/uv81v3vurhxwjpwqmndd",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760090733/portfolio/projects/uv81v3vurhxwjpwqmndd.png"
+    },
+    "name": "TicTacToe Multiplayer",
+    "shortDescription": "Real-time 2-player TicTacToe with AI & WebSocket powered backend.",
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer-motion",
+      "Spring Boot",
+      "WebSocket",
+      "Java",
+      "Docker",
+      "Railway"
+    ],
+    "description": [
+      "Real-time multiplayer TicTacToe with also optional AI opponent",
+      "Backend by Spring Boot using WebSocket for live communication",
+      "Players can either play against each other or versus AI bot",
+      "Implements Minimax algorithm for unbeatable AI logic",
+      "Stateful game management with WebSocket event broadcasting",
+      "React frontend built with modern UI and clean board rendering",
+      "Game state stored using session-aware backend services",
+      "Deployed via Docker on Railway for scalable deployment"
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/live-play",
+      "https://github.com/Hari-prasath-03/live-play-server"
+    ],
+    "liveLink": "https://live-play-alpha.vercel.app"
+  },
+  {
+    "id": 9,
+    "image": {
+      "public_id": "portfolio/projects/qwi53izlovg4denbaoag",
+      "secure_url": "https://res.cloudinary.com/dltpvbsnc/image/upload/v1760090938/portfolio/projects/qwi53izlovg4denbaoag.png"
+    },
+    "name": "InkMark",
+    "shortDescription": "Simple and fast markdown editing with export options.",
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "React Query",
+      "Tailwind CSS",
+      "Node js",
+      "Express",
+      "Firebase-Firestore"
+    ],
+    "description": [
+      "Full-stack markdown manager for developers, writers, and teams",
+      "Edit and Export markdown files instantly as .md or .pdf",
+      "Write, preview, and autosave markdown with smart syncing",
+      "Debounce mechanism ensures smooth large file editing experience",
+      "Secure JWT auth with OTP-based email verification system",
+      "Easily manage favorites, trash, and restore deleted files",
+      "Modern UI built using Tailwind and reusable components"
+    ],
+    "githubLink": [
+      "https://github.com/Hari-prasath-03/inkMark-frontend",
+      "https://github.com/Hari-prasath-03/inkMark-server"
+    ],
+    "liveLink": "https://inkmark.vercel.app"
+  }
+]
