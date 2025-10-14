@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Comic_Relief } from "next/font/google";
 import "../globals.css";
 
-import Footer from "@/components/main/Footer";
+import Footer from "@/components/layouts/Footer";
 import Provider from "../provider";
 
 const comic = Comic_Relief({
