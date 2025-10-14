@@ -10,6 +10,7 @@ import MotionImage from "@/components/ui/MotionImage";
 import { ExternalLink, Github } from "lucide-react";
 
 import { TagForTech } from "./[title]/page";
+import { apiUrl } from "@/app/api/lib/base-url";
 
 export type ProjectType = {
   image: {
@@ -25,9 +26,9 @@ export type ProjectType = {
 };
 
 const Projects = async () => {
-  const projects: ProjectType[] = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/projects`
-  ).then((res) => res.json());
+  const projects: ProjectType[] = await fetch(apiUrl("/projects")).then((res) =>
+    res.json()
+  );
 
   return (
     <section className="min-h-screen max-w-[1378px] mx-auto flex flex-col justify-center relative pt-40 pb-10">

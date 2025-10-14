@@ -5,12 +5,13 @@ import Heading from "@/components/ui/Heading";
 import Reveal from "@/motion/Reveal";
 import { ExternalLink, Github } from "lucide-react";
 import { ProjectType } from "../page";
+import { apiUrl } from "@/app/api/lib/base-url";
 
 const Project = async ({ params }: { params: Promise<{ title: string }> }) => {
   const { title } = await params;
 
   const project: ProjectType | undefined = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/projects/${title}`
+    apiUrl(`/projects/${title}`)
   )
     .then((res) => res.json())
     .catch(() => undefined);

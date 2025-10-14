@@ -6,6 +6,7 @@ import Heading from "@/components/ui/Heading";
 import TechstacksTabs from "@/components/layouts/TechstacksTabs";
 
 import Link from "next/link";
+import { apiUrl } from "../api/lib/base-url";
 
 type AboutData = {
   name: string;
@@ -15,9 +16,9 @@ type AboutData = {
 };
 
 const Home = async () => {
-  const data: AboutData = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/about`
-  ).then((res) => res.json());
+  const data: AboutData = await fetch(apiUrl("/about")).then((res) =>
+    res.json()
+  );
 
   return (
     <div className="flex flex-col justify-center max-w-[1378px] mx-auto pl-10 pr-8 sm:px-10">
