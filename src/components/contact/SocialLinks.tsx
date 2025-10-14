@@ -4,7 +4,7 @@ import { JSX, useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Github, Instagram, Linkedin, Mail } from "lucide-react";
 
-import { SocialLink } from "../main/Navbar";
+import { SocialLink } from "../layouts/Navbar";
 import { useGetSocials } from "@/queries/useGetSocials";
 
 const SocialLinks = () => {

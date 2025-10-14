@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Particles from "@/motion/Particles";
 import Reveal from "@/motion/Reveal";
 import Heading from "@/components/ui/Heading";

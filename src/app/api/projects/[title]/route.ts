@@ -9,7 +9,7 @@ function slugToTitle(slug: string): string {
 
 export async function GET(
   request: Request,
-  { params }: { params: { title: string } }
+  { params }: { params: Promise<{ title: string }> }
 ) {
   const title = await params;
   const normalisedTitle = slugToTitle(title.title);

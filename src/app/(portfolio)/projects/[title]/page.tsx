@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+export const dynamic = "force-dynamic";
+
 import Heading from "@/components/ui/Heading";
 import Reveal from "@/motion/Reveal";
 import { ExternalLink, Github } from "lucide-react";
