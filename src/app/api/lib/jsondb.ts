@@ -1,5 +1,6 @@
 import fs from "fs";
-const DB_PATH = "src/app/api/db";
+import path from "path";
+const DB_PATH = path.join(process.cwd(), "public", "db");
 
 abstract class JsonDb<T extends object> {
   protected filePath: string;
@@ -63,7 +64,7 @@ export class MultiRecordDb<T extends object> extends JsonDb<T> {
     return [];
   }
 
-  async find(query: Partial<T>): Promise<T[]> {   
+  async find(query: Partial<T>): Promise<T[]> {
     const data = (await this.readAll()) as T[];
     return data.filter((item) =>
       Object.entries(query).every(([key, value]) => {

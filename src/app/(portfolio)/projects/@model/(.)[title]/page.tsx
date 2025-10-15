@@ -16,7 +16,6 @@ const ProjectModel = () => {
 
   const title = (params?.title as string) ?? "";
   const { data: project } = useGetProjectByTitle<ProjectType>(title);
-  console.log(project);
 
   const handleClickOutside = (e: React.MouseEvent) => {
     e.stopPropagation();

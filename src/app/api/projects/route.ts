@@ -16,7 +16,6 @@ export async function GET() {
 
 export async function POST(request: Request) {
   const projects = await request.json();
-  console.log(projects);
   const parsed = ProjectsSchema.safeParse(projects);
 
   if (!parsed.success) {
@@ -26,7 +25,6 @@ export async function POST(request: Request) {
     );
   }
 
-  console.log(parsed.data);
   await db.addOne(parsed.data);
   return Response.json(
     { message: "Experience created successfully." },

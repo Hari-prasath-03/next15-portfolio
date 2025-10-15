@@ -15,7 +15,7 @@ type AboutData = {
   contents: string[];
 };
 
-const Home = async () => {
+export default async function Home() {
   const data: AboutData = await fetch(apiUrl("/about")).then((res) =>
     res.json()
   );
@@ -26,9 +26,7 @@ const Home = async () => {
       <AboutSection {...data} />
     </div>
   );
-};
-
-export default Home;
+}
 
 const Hero: React.FC<Omit<AboutData, "contents">> = ({
   name,
