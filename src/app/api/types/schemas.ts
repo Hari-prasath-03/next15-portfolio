@@ -25,7 +25,7 @@ export const ExperienceSchems = z.object({
 });
 
 export const SocialsSchema = z.object({
-  id: z.number().optional(),
+  id: z.string().optional(),
   name: z.string(),
   link: z.string(),
 });

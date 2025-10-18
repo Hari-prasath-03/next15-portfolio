@@ -1,7 +1,5 @@
-import { MultiRecordDb } from "../../lib/jsondb";
-import { ProjectType } from "../route";
-
-const db = new MultiRecordDb<ProjectType>("projects");
+import connectToDb from "../../lib/db";
+import Project from "../../lib/models/project.model";
 
 function slugToTitle(slug: string): string {
   return slug.replace(/-/g, " ").trim();
@@ -13,14 +11,12 @@ export async function GET(
 ) {
   const title = await params;
   const normalisedTitle = slugToTitle(title.title);
-  
-  const projects = await db.find({
-    name: normalisedTitle,
-  } as Partial<ProjectType>);
 
-  if (!projects || projects.length === 0) {
+  await connectToDb();
+  const project = await Project.findOne({ name: normalisedTitle }).lean();
+
+  if (!project)
     return Response.json({ message: "Project not found" }, { status: 404 });
-  }
 
-  return Response.json(projects[0], { status: 200 });
+  return Response.json(project, { status: 200 });
 }

@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="flex gap-4 sm:gap-6">
         {links.map(({ name, link }, i) => (
           <motion.span
-            key={name}
+            key={i}
             layoutId={name}
             layout
             onClick={() => window.open(link, "_blank")}

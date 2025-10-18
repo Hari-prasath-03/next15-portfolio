@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import clsx from "clsx";
@@ -69,10 +70,10 @@ const TechstacksTabs = () => {
           <AnimatePresence>
             {techStacks
               .filter((tech) => tech.category === activeTab)
-              .map((tech) => (
+              .map((tech, i) => (
                 <motion.div
                   layout
-                  key={tech.id}
+                  key={i}
                   initial={{ scale: 0.3 }}
                   animate={{ scale: 1 }}
                   exit={{ scale: 0.3 }}
