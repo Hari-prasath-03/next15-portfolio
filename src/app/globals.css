@@ -8,6 +8,10 @@
   --font-primary: "Comic Relief", system-ui;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-bg text-text font-primary *:selection:bg-primary *:selection:text-bg;
 }

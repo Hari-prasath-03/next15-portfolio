@@ -3,12 +3,14 @@ import Reveal from "../../motion/Reveal";
 const Heading = ({
   title,
   textSize = "text-3xl sm:text-5xl",
+  className,
 }: {
   title: string;
   textSize?: string;
+  className?: string;
 }) => (
   <Reveal>
-    <h1 className={`${textSize} font-extrabold tracking-tighter flex-1`}>
+    <h1 className={`${textSize} font-extrabold tracking-tighter flex-1 ${className}`}>
       {title}
       <span className="text-primary">.</span>
     </h1>

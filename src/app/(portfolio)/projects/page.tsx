@@ -11,6 +11,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 import { TagForTech } from "./[title]/page";
 import { apiUrl } from "@/app/api/lib/base-url";
+import HorizontalScroll from "@/components/layouts/HorizontalScroll";
 
 export type ProjectType = {
   image: {
@@ -32,14 +33,13 @@ const Projects = async () => {
 
   return (
     <section className="min-h-screen max-w-[1378px] mx-auto flex flex-col justify-center relative pt-40 pb-10">
-      <div className="max-w-4xl ml-20 mr-6 sm:mr-20 md:ml-36 space-y-3">
+      <div className="ml-18 sm:ml-32">
         <Heading title="Projects" />
-
-        <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <HorizontalScroll>
           {projects.map((project, i) => (
             <ProjectCard key={i} {...project} />
           ))}
-        </div>
+        </HorizontalScroll>
       </div>
     </section>
   );
@@ -56,7 +56,7 @@ const ProjectCard: React.FC<ProjectType> = ({
   liveLink,
   shortDescription,
 }) => (
-  <div className="rounded-lg overflow-hidden shadow-lg transition hover:shadow-xl h-fit border border-white/20">
+  <div className="rounded-lg overflow-hidden shadow-lg transition hover:shadow-xl border border-white/20 min-w-[290px] sm:min-w-[350px] md:min-w-[400px]">
     <Reveal>
       <div className="w-full h-36 sm:h-48 bg-bg-sec overflow-hidden px-5 pt-8">
         <MotionImage
@@ -120,7 +120,7 @@ const ProjectCard: React.FC<ProjectType> = ({
       <Reveal>
         <div>
           <p className="text-sm">
-            {shortDescription}{" "}
+            {shortDescription}
             {(description[0] + " " + description[1]).slice(0, 80) + "... "}
             <Link
               scroll={false}

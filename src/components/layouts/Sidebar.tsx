@@ -10,7 +10,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="bg-zinc-950 min-h-screen h-full fixed top-0 left-0 z-50 flex flex-col items-center w-14">
+    <div className="bg-zinc-950 min-h-screen h-full fixed top-0 left-0 z-50 flex flex-col items-center w-12 sm:w-14">
       <motion.div
         initial={{ y: -65, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

@@ -2,9 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-type Breakpoint = string;
-
-function useMediaQuery(breakpoint: Breakpoint): boolean {
+function useMediaQuery(breakpoint: string): boolean {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {
